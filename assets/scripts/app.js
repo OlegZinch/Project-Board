@@ -28,7 +28,7 @@ class ProjectItem {
     const projectItemElement = document.getElementById(this.id)
     let switchBtn = projectItemElement.querySelector('button:last-of-type')
     switchBtn = DOMHelper.clearEventListeners(switchBtn)
-    switchBtn.textContent = type === 'active' ? 'Finish' : 'Activited'
+    switchBtn.textContent = type === 'active' ? 'Finish' : 'Activate'
     switchBtn.addEventListener(
       'click',
       this.updateProjectListsHandler.bind(null, this.id)
