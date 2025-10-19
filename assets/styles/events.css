@@ -38,5 +38,5 @@ button:active {
 
 #long-one {
   height: 3000px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
